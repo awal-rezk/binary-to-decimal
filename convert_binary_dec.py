@@ -1,5 +1,3 @@
-# Online Python compiler (interpreter) to run Python online.
-# Write Python 3 code in this online editor and run it.
 def calc_decimal(binary):
     binary_string = str(binary) #convert binary number to string
     number_of_bits = len(binary_string)
