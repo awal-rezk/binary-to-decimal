@@ -15,4 +15,4 @@ def calc_decimal(binary):
 print("Please enter a binary number, with no leading zeroes (most significant bit).")
 calc_decimal(110)
 
-#compile on https://www.programiz.com/python-programming/online-compiler/
+
