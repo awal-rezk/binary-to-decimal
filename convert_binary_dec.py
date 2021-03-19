@@ -10,7 +10,5 @@ def calc_decimal(binary):
         index -=1 #decrement the bit position --> moving to the right in the binary number
     decimal_equivalent_string = str(decimal_equivalent)
     print("This is the corresponding decimal value: " + decimal_equivalent_string)
-print("Please enter a binary number, with no leading zeroes (most significant bit).")
-calc_decimal(110)
-
-
+binary_number = input("Please enter a binary number, with no leading zeroes (most significant bit).")
+calc_decimal(binary_number)
